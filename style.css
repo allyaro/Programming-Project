@@ -21,9 +21,24 @@
     display: flex;
     justify-content: space-between;
     margin-right: 0;
-    
   }
 
   img {
-    width: 40%;
+    width: 15%;
+  }
+
+  .logo {
+    
+  }
+
+  nav li a{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
   }
