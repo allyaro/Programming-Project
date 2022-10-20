@@ -17,18 +17,34 @@
       clear: both;
   }
 
-  body {
+  /* body {
     display: flex;
     justify-content: space-between;
     margin-right: 0;
-  }
+  } */
 
   img {
-    width: 15%;
+    width: 8em;
+    position: relative;
+    top: -10px;
+  }
+
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding: 2.8em;
+    border-bottom: 1px solid gainsboro;
+
   }
 
   .logo {
     
+  }
+
+  .icons i{
+    padding-right: 1.5em;
   }
 
   nav li a{
@@ -36,9 +52,24 @@
     list-style: none;
   }
 
-  .nav {
+  input {
+    width: 380px;
+  }
+
+
+
+  /* .nav {
     display: flex;
     text-decoration: none;
     justify-content: space-between;
     list-style: none;
+  } */
+
+
+
+
+
+
+  @media screen and (max-width: 768px;) {
+    
   }
