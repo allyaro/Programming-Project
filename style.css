@@ -65,11 +65,42 @@
     list-style: none;
   } */
 
-
+.menu {
+  align
+}
 
 
 
 
   @media screen and (max-width: 768px;) {
     
+  }
+
+
+.menu {
+  margin: 100px 100px 150px 200px;
+  padding: 50px 50px;
+  display: flex;
+  justify-content:right
+}
+
+.category {
+  margin: 0 auto;
+  display: inline-block;
+  display: center;
+  border: solid;
+  border-color: black;
+  padding: 2em;
+  }
+
+  p {
+    padding-bottom: 30px;
+
+  }
+
+  .img-category {
+  padding-top: 1em;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
   }
