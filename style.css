@@ -17,14 +17,12 @@
       clear: both;
   }
 
-  /* body {
-    display: flex;
-    justify-content: space-between;
+  body {
     margin-right: 0;
-  } */
+  }
 
   img {
-    width: 8em;
+    width: 10em;
     position: relative;
     top: -10px;
   }
@@ -34,36 +32,56 @@
     display: flex;
     justify-content: space-around;
     margin-top: 2em;
-    padding: 2.8em;
+    /* padding: 2.8em; */
     border-bottom: 1px solid gainsboro;
-
-  }
-
-  .logo {
-    
   }
 
   .icons i{
     padding-right: 1.5em;
+    font-size: 1.2em;
   }
 
-  nav li a{
+  .search {
+   
+  }
+
+  nav ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1px solid gainsboro;
+    padding: 4em; */
+  }
+
+  nav ul li {
     text-decoration: none;
     list-style: none;
+    padding: 2px 4px;
   }
 
   input {
     width: 380px;
   }
 
-
-
-  /* .nav {
+  footer section {
     display: flex;
-    text-decoration: none;
-    justify-content: space-between;
-    list-style: none;
-  } */
+    position: fixed;
+    border-top: 1px solid gainsboro;
+    font-size: 0.75em;
+    padding-left: 4em;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+
+  footer section h3 {
+    padding-right: 3.5em;
+    padding-left: 1.25em;
+  }
+
+
+
+
 
 
 
