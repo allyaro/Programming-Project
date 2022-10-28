@@ -98,27 +98,33 @@
 	  background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-	  height: 600px;
-	  width: 100%;
 	  border: 0px solid rgb(192, 192, 192);
+    width: 100%;
+    height: 600px;
+
   }
 
   .shop {
+
+      background-color: #d67aeb; /* Green */
       padding: 10px;
       font-size: 16px;
       position: relative;
       top: 400px;
       left: 200px;
   }
+      .containerimg {
+        display: flex;
+        justify-content: center;
+      }
+
 
       .containerimg img {
-        display: flex;
-        position: center;
-        justify-content: center;
         margin-top: 50px;
         height: 100%;
-        width: 500px;
-      background-size: cover;
+        width: 50%;
+        background-size: cover;
+        margin-top: 50px;
       }
 
   
@@ -131,6 +137,7 @@
     bottom: 0px;
     left: 0;
     right: 0;
+    background-color: rgb(159, 245, 238);
   }
 
   footer section h3 {
@@ -148,12 +155,6 @@
   }
 
 
-
-  @media screen and (max-width: 768px;) {
-    
-  }
-
-
   /* Maythe's code */
 
   .video {
@@ -166,6 +167,7 @@
 
 .popular {
   display: flex;
+  justify-content: center;
 
 
 
@@ -174,7 +176,8 @@
 #popular-list {
   display: flex;
   list-style: none;
-
+  justify-content: center;
+  w
 }
 
 .popular-user {
@@ -200,7 +203,7 @@ h4 {
 
 
 .popular-menu-header {
-  padding: 10px;
+  padding-left: 30px;
   margin: 10px 20px;
 
 }
@@ -215,3 +218,16 @@ h4 {
 
 
   /* Maythe's code */
+
+
+
+
+
+  @media screen and (min-width: 600px), screen and (orientation: portrait) {
+    body {
+      width: 100vw;
+    }
+
+
+
+    
