@@ -20,7 +20,7 @@
 
 
   * {
-    cursor: url('icons8-diamond-64.png'), auto;
+    cursor: url('icons8-sparkling-diamond-50.png'), auto;
   }
 
   body {
@@ -71,10 +71,57 @@
     padding-right: 4em;
   }
 
+  a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  a:visited {
+    text-decoration: none; color: black;
+  }
+
+  a:hover {
+    color: #ED88D1;
+  }
+
   input {
     width: 380px;
   }
 
+
+
+  
+  .container {
+	  position: center;
+	  background-image: url("https://64.media.tumblr.com/a603f983bb4e3368ef3b8e136111f5b5/24689ad6d38cdca2-55/s640x960/df1b808ff10ea6147eefa1cdf2db4d62f94398ce.jpg");
+	  background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+	  height: 600px;
+	  width: 100%;
+	  border: 0px solid rgb(192, 192, 192);
+  }
+
+  .shop {
+      padding: 10px;
+      font-size: 16px;
+      position: relative;
+      top: 400px;
+      left: 200px;
+  }
+
+      .containerimg img {
+        display: flex;
+        position: center;
+        justify-content: center;
+        margin-top: 50px;
+        height: 100%;
+        width: 500px;
+      background-size: cover;
+      }
+
+  
   footer section {
     display: flex;
     position: fixed;
@@ -91,9 +138,6 @@
     padding-left: 1.25em;
   }
 
-
-
-
   .pinkGem {
     visibility: hidden;
     height: 5px;
@@ -108,3 +152,66 @@
   @media screen and (max-width: 768px;) {
     
   }
+
+
+  /* Maythe's code */
+
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+.popular {
+  display: flex;
+
+
+
+}
+
+#popular-list {
+  display: flex;
+  list-style: none;
+
+}
+
+.popular-user {
+  padding: 10px;
+  margin: 10px 50px 20px 0;
+  
+}
+
+.popular-user-image {
+  object-fit: cover;
+  width:150px;
+  height:150px;
+  flex-shrink: 2;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.popular-menu-header {
+  padding: 10px;
+  margin: 10px 20px;
+
+}
+
+#view-more {
+  text-decoration: underline;
+}
+
+#view-more:hover {
+  color: rgb(231, 58, 144);
+}
+
+
+  /* Maythe's code */
