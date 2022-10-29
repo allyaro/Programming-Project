@@ -1,204 +1,276 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
 
 
 
-  * {
-    cursor: url('icons8-sparkling-diamond-50.png'), auto;
-  }
+* {
+  cursor: url('icons8-sparkling-diamond-50.png')auto;
+  margin: 0;
+}
 
-  body {
-    margin-right: 0;
-  }
+body {
+  margin-right: 0;
+}
 
-  img {
-    width: 10em;
-    position: relative;
-    top: -10px;
-  }
-
-
-  header {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3em;
-    /* padding: 2.8em; */
-    border-bottom: 1px solid gainsboro;
-  }
-
-  .icons i{
-    padding-right: 1.5em;
-    font-size: 1.2em;
-  }
-
-  .search {
-    /* style search bar */
-    /* border: 2px solid brown; */
-  }
-
-  input {
-    border: 2px solid #b4b4b4;
-    padding: 4px;
-  }
-
-  nav ul {
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid gainsboro;
-    padding: 0.87em;
-  }
-
-  nav ul li {
-    text-decoration: none;
-    list-style: none;
-    padding-right: 4em;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: 600;
-  }
-
-  a:visited {
-    text-decoration: none; color: black;
-  }
-
-  a:hover {
-    color: #ED88D1;
-  }
-
-  input {
-    width: 380px;
-  }
+img {
+  width: 10em;
+  position: relative;
+  top: -10px;
+}
 
 
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  /* padding: 2.8em; */
+  border-bottom: 1px solid gainsboro;
+}
 
-  
-  .container {
-	  position: center;
-	  background-image: url("https://64.media.tumblr.com/a603f983bb4e3368ef3b8e136111f5b5/24689ad6d38cdca2-55/s640x960/df1b808ff10ea6147eefa1cdf2db4d62f94398ce.jpg");
-	  background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-	  border: 0px solid rgb(192, 192, 192);
-    width: 100%;
-    height: 600px;
+.icons i {
+  padding-right: 1.5em;
+  font-size: 1.2em;
+}
 
-  }
+.footerIcons {
+  justify-content: end;
+}
 
-  .shop {
+.search {
+  /* style search bar */
+  /* border: 2px solid brown; */
+}
 
-      background-color: #d67aeb; /* Green */
-      padding: 10px;
-      font-size: 16px;
-      position: relative;
-      top: 400px;
-      left: 200px;
-  }
-      .containerimg {
+input {
+  border: 2px solid #b4b4b4;
+  padding: 4px;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gainsboro;
+  padding: 0.87em;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-right: 4em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ED88D1;
+}
+
+input {
+  width: 380px;
+}
+
+
+
+
+.container {
+  position: center;
+  background-image: url("https://64.media.tumblr.com/a603f983bb4e3368ef3b8e136111f5b5/24689ad6d38cdca2-55/s640x960/df1b808ff10ea6147eefa1cdf2db4d62f94398ce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px solid rgb(192192192);
+  width: 100%;
+  height: 600px;
+
+}
+
+.shop {
+  background-color: #d67aeb;
+  /* Green */
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+  top: 400px;
+  left: 200px;
+}
+
+/* .containerimg {
         display: flex;
         justify-content: center;
       }
 
 
-      .containerimg img {
+    .containerimg img {
         margin-top: 50px;
         height: 100%;
         width: 50%;
         background-size: cover;
         margin-top: 50px;
-      }
+      } */
 
-  
-  footer section {
-    display: flex;
-    position: fixed;
-    border-top: 1px solid gainsboro;
-    font-size: 0.75em;
-    padding-left: 4em;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    background-color: rgb(159, 245, 238);
-  }
+.btn {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
 
-  footer section h3 {
-    padding-right: 3.5em;
-    padding-left: 1.25em;
-  }
+.btn::after {
+  content: "";
+  background-color: #dcbaff;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
 
-  .pinkGem {
-    visibility: hidden;
-    height: 5px;
-  }
-
-  cursor {
-    font-size: x-small;
-  }
+.btn:hover::after {
+  top: 0px;
+  left: 0px;
+}
 
 
-  /* Maythe's code */
+.threeSec {
+  display: flex;
+  margin: 90px;
+}
 
-  .video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-  }
-  
+.threeSec div {
+  margin: 40px;
+}
+
+.threeSec div button {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.threeSec h2 {
+  font-size: 50px;
+}
+
+.threeSec div img {
+  width: 200px;
+  margin-left: auto;
+}
+
+#shoes {
+  justify-content: flex-end;
+  padding-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  top: 30px;
+}
+
+#jewelry {
+  margin-top: 10px;
+}
+
+
+footer section {
+  display: flex;
+  position: fixed;
+  border-top: 1px solid gainsboro;
+  font-size: 0.75em;
+  padding-top: 1.2em;
+  padding-bottom: 2em;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgb(159 245 238);
+  height: 30px;
+}
+
+footer section h3 {
+  padding-right: 3.5em;
+  padding-left: 1.25em;
+}
+
+
+
+.pinkGem {
+  visibility: hidden;
+  height: 5px;
+}
+
+cursor {
+  font-size: x-small;
+}
+
+
+/* Maythe's code */
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
 
 .popular {
   display: flex;
   justify-content: center;
-
-
-
 }
 
 #popular-list {
   display: flex;
   list-style: none;
   justify-content: center;
-  w
 }
 
 .popular-user {
   padding: 10px;
   margin: 10px 50px 20px 0;
-  
+
 }
 
 .popular-user-image {
   object-fit: cover;
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   flex-shrink: 2;
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ArialHelveticasans-serif;
 }
 
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ArialHelveticasans-serif;
 }
 
 
@@ -213,21 +285,22 @@ h4 {
 }
 
 #view-more:hover {
-  color: rgb(231, 58, 144);
+  color: rgb(23158144);
 }
 
 
-  /* Maythe's code */
+/* Maythe's code */
 
 
 
 
 
-  @media screen and (min-width: 600px), screen and (orientation: portrait) {
-    body {
-      width: 100vw;
-    }
+@media screen and (min-width: 916px) {
+  .video {
+    width: 100%;
+  }
 
-
-
-    
+  header {
+    width: 100%;
+  }
+}
